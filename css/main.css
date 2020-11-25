@@ -270,7 +270,7 @@ nav a:hover::before {
 }
 
 .slides {
-  width: 600vw;
+  width: 700vw;
   height: 100vh;
   -webkit-transition: -webkit-transform 0.8s ease;
   transition: -webkit-transform 0.8s ease;
@@ -322,6 +322,9 @@ nav a:hover::before {
 .slides .slide:nth-child(6) {
   background-image: url(../img/fourth_bg.jpg);
 }
+.slides .slide:nth-child(7) {
+	background-image: url(../img/fourth_bg.jpg);
+}
 .slides .slide img {
   width: 100%;
 }
@@ -341,11 +344,13 @@ nav a:hover::before {
 
 .first-content .author-image img {
 	margin-top: 15px;
-	border-radius: 30px;
+	border-radius: 2px;
 	max-width: 100%;
 	overflow: hidden;
 	float: left;
 	margin-right: 35px;
+	height: 40vh;
+	width: 30vw;
 }
 
 .first-content h2 {
@@ -354,8 +359,27 @@ nav a:hover::before {
 	font-weight: 700;
 	color: #fff;
 	letter-spacing: 0.5px;
-	border-bottom: 2px solid #fff;
 	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.sectionB p{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 5px;
+	margin-top: 23%;
+}
+
+.first-content h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.5px;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
@@ -382,6 +406,24 @@ nav a:hover::before {
 }
 
 .first-content .main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.section-B .main-btn {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.section-B .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -841,6 +883,12 @@ nav a:hover::before {
 	}
 
 	.first-content .main-btn {
+		display: inline-block;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.section-B .main-btn {
 		display: inline-block;
 		margin-right: 0px;
 		margin-bottom: 15px;
